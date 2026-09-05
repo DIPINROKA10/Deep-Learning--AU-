@@ -1,64 +1,72 @@
 <div align="center">
 
-<!-- Animated header banner -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,5&height=200&section=header&text=Deep%20Learning&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=Assignments%20%26%20Coursework&descAlignY=60&descSize=18)
-
-<!-- Animated typing text -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Learning+how+neurons+learn+%F0%9F%A7%A0;CNNs+%7C+RNNs+%7C+Transformers;Backprop%2C+Gradients+%26+Beyond+%E2%9A%A1)](https://git.io/typing-svg)
-
-<!-- Badges -->
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![header](https://capsule-render.vercel.app/api?type=blur&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Deep%20Learning%20Notebook&fontSize=38&fontColor=e94560&fontAlignY=45&desc=Field%20Notes%20on%20Artificial%20Neurons&descAlignY=65&descColor=eeeeee&descSize=15)
 
 </div>
 
----
+<br>
 
-## 📖 About
+```
+   ┌─────────┐      ┌─────────┐      ┌─────────┐
+   │  INPUT  │ ───▶ │ HIDDEN  │ ───▶ │ OUTPUT  │
+   │  LAYER  │      │ LAYERS  │      │  LAYER  │
+   └─────────┘      └─────────┘      └─────────┘
+        │                │                │
+        ▼                ▼                ▼
+     weights   →   activation   →   backprop
+```
 
-This repository is a curated collection of my **assignments, experiments, and projects** completed as part of my **Deep Learning** coursework. It covers the core building blocks of neural networks all the way up to advanced architectures used in modern AI systems.
+<br>
 
-> *"Deep Learning is just calculus, patience, and a lot of matrix multiplications."* ⚡🧠
+## 🔬 Lab Notes
 
----
+*This isn't just a repository of assignments — it's a running log of how I learned to make machines learn.*
 
-## 🧩 Topics Covered
+Every folder here is an entry in that log: a network built, a bug fixed, a gradient that finally stopped exploding. Deep Learning, at its core, is just **weighted guesses corrected by failure** — and this notebook tracks that process, one epoch at a time.
 
-**Foundations**
-- 🔹 Perceptrons & Multi-Layer Perceptrons (MLPs)
-- 🔹 Activation Functions (ReLU, Sigmoid, Tanh, Softmax)
-- 🔹 Forward & Backward Propagation
-- 🔹 Loss Functions & Optimizers (SGD, Adam, RMSprop)
-- 🔹 Gradient Descent & Learning Rate Scheduling
+<br>
 
-**Core Architectures**
-- 🔹 Convolutional Neural Networks (CNNs)
-- 🔹 Recurrent Neural Networks (RNNs)
-- 🔹 LSTMs & GRUs
-- 🔹 Autoencoders & Denoising Autoencoders
-- 🔹 Transfer Learning & Pretrained Models
+## 📐 Entry Log
 
-**Training & Optimization**
-- 🔹 Regularization (Dropout, L1/L2, Batch Norm)
-- 🔹 Overfitting vs Underfitting
-- 🔹 Hyperparameter Tuning
-- 🔹 Data Augmentation
-- 🔹 Model Evaluation Metrics (Accuracy, Precision, Recall, F1)
+| # | Chapter | What I Learned |
+|---|---------|-----------------|
+| 01 | **The Neuron** | How a single weighted sum + activation can approximate *anything* |
+| 02 | **The Network** | Stacking neurons into layers — and why depth matters more than width |
+| 03 | **The Gradient** | Backpropagation as the network's way of "learning from mistakes" |
+| 04 | **The Eye (CNNs)** | Teaching machines to *see* through convolutions and filters |
+| 05 | **The Memory (RNNs/LSTMs)** | Giving networks a sense of *time* and sequence |
+| 06 | **The Focus (Attention)** | Letting models decide what matters most in the data |
+| 07 | **The Mirror (Autoencoders)** | Networks that compress reality, then rebuild it |
+| 08 | **The Dreamer (GANs/VAEs)** | When learning turns into imagining |
 
-**Advanced Concepts**
-- 🔹 Attention Mechanism & Transformers
-- 🔹 Sequence-to-Sequence Models
-- 🔹 Object Detection & Image Segmentation
-- 🔹 Generative Models (GANs, VAEs)
-- 🔹 Model Deployment Basics
+<br>
+
+## ⚙️ Instruments Used
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+
+</div>
+
+<br>
+
+## 🧪 A Working Hypothesis
+
+> *A network doesn't "understand" — it approximates. But given enough data, enough depth, and enough patience, approximation starts to look a lot like understanding.*
+
+<br>
 
 ---
 
 <div align="center">
+<sub>Logged, trained, and occasionally overfit — with care. 🧠⚡</sub>
+<br><br>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,5&height=100&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=blur&color=0:1a1a2e,50:16213e,100:0f3460&height=100&section=footer)
 
 </div>
